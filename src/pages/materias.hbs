@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Common head view -->
+    {{> head}}   
+    <!-- Background color -->
+  </head>
+
+  <body>
+    
+    <!-- Top Navigation Bar -->
+    {{> topnav}}
+    <!-- Message -->
+    {{!-- {{#if message}}
+      {{> message}}
+    {{/if}} --}}
+    
+    <!-- View rent -->
+    <div class="books" id="current_state" state_name="rent">
+      <div class="detalhe_container">
+        <!-- Title -->
+        <h1>Ver Matéria</h1>
+      <!-- Form -->
+      <form method="post" action="/create/rent" id="form_create_rent">
+        <!-- Duration -->
+        <!-- Book -->
+        <select id="create_rent_select_book" name="book" required>
+          <option >Escolha uma Matéria</option>
+          {{#each classes}}
+            <option value="{{code}}" description="{{description}}">{{name}}</option>
+          {{/each}}
+        </select><p/>
+        <!-- Submit -->
+        
+      </form>
+      </div>
+    
+    
+    <br/>    
+
+    <div class="class_detail">
+      <h1 id="create_rent_description"></h1>
+    </div>
+    </div>
+    
+  </body>
+
+</html>

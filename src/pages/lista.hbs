@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Common head view -->
+    {{> head}}   
+    <!-- Background color -->
+    {{!-- <style> body{ background-image:linear-gradient(to right, #283c86 0%, #45a247 100%);} </style> --}}
+  </head>
+
+  <body>
+    
+    <!-- Top Navigation Bar -->
+    {{> topnav}}
+    <!-- Message -->
+    {{#if message}}
+      {{> message}}
+    {{/if}}
+    
+    <!-- View book -->
+    <div class="books" id="current_state" state_name="books">
+     <div class="lista_container">
+       <!-- Title -->
+      {{!-- <header>--}}
+        <h1>Lista de matérias</h1>
+      {{!--</header> --}}
+      <!-- Table -->
+      <table class="books_table">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Professor</th>
+            <th>Horas</th>
+            <th>Período</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each classes}}
+            <tr>
+              <td>{{code}}</td>
+              <td>{{name}}</td>
+              <td>{{professor}}</td>
+              <td>{{hours}}</td>
+              <td class="quantity">{{period}}</td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+     </div>
+    </div>
+    
+  </body>
+
+</html>

@@ -1,0 +1,84 @@
+[
+  {
+    "code": "IC 242",
+    "description": "Aplicação da integral definida. Cônicas e quádricas. Funções de várias variáveis.  Equações diferenciais ordinárias de 1a ordem. Equações diferenciais ordinárias de 2a ordem",
+    "hours": 90,
+    "id": "3c7e949e-ffe0-46bb-bfff-300af162decb",
+    "name": "Cálculo II",
+    "professor": "Felipe Amorin",
+    "period": 2
+  },
+  {
+    "code": "IC599",
+    "description": "HTML e XHTML para que serve quais seus elementos constituintes qual a semântica de cada um deles, e como utilizá-los para estruturar um documento CSS. Para que serve o que são seletores e propriedades como utilizá-los para modificar o estilo de uma página. Aprender a usar folhas de estilos em cascata (estilos CSS) para criar páginas mais flexíveis, mais leves e controlar o seu aspecto gráfico com maior precisão e com maior facilidade na correção de erros;",
+    "hours": 30,
+    "id": "803bc064-7e77-4d94-bc28-03d4310953bb",
+    "name": "SISTEMAS WEB I",
+    "professor": "José Luis",
+    "period": 3
+  },
+  {
+    "code": "IC593",
+    "description": "Introdução ao Desenvolvimento de Sistemas WEB. Termos como CSS. HTML. JAVASCRIPT. Apache. PHP",
+    "hours": 60,
+    "id": "9618e739-0cef-4b7f-875d-cc1265fad348",
+    "name": " INTRODUÇÃO A SISTEMAS WEB",
+    "professor": "Manoel Bandeira",
+    "period": 2
+  },
+  {
+    "code": "IC592",
+    "description": "Algoritmos: caracterização, notação, estruturas básicas Conceitos de linguagem algorítmicas: expressões e comandos sequenciais. Estruturas de controle seletivas e repetitivas",
+    "hours": 60,
+    "id": "a12159a2-95aa-4ae6-b812-eda5f11aa07d",
+    "name": " LINGUAGEM DE PROGRAMAÇÃO I",
+    "professor": "Antôncio Cabrini",
+    "period": 1
+  },
+  {
+    "code": "IC594",
+    "description": "Como definir um Sistema de Informação: Alguns exemplos e tipos de Sistema de informação Como aplicar os conceitos básicos da teoria de sistema:Como Sistemas de Informação são apresentados para as organizações:",
+    "hours": 30,
+    "id": "b21a68ef-1464-48fb-a8e2-380e757c81fe",
+    "name": " INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO",
+    "professor": "Antôncio Cabrini",
+
+    "period": 1
+  },
+  {
+    "code": "IC 241",
+    "description": "Funções de uma variável real. Gráficos. Limites e continuidade. A derivada.  Aplicação da derivada. A integral. A função inversa, o logaritmo e a exponencial. ",
+    "hours": 90,
+    "id": "cea9464e-3d42-447c-a540-4c6b5b107066",
+    "name": "Cálculo I",
+    "professor": "Marcelo Luis",
+    "period": 1
+  },
+  {
+    "code": "IC595",
+    "description": "Codificação numérica e simbólica; operações lógicas, portas lógicas, álgebra de Boole, circuitos combinacionais e seqüenciais, mapas de karnaugh.",
+    "hours": 60,
+    "id": "f16cdeb5-f99c-4738-8bb3-ff035aed9aee",
+    "name": " INTRODUÇÃO A SISTEMAS DIGITAIS",
+    "professor": "João Paulo",
+    "period": 1
+  },
+  {
+    "code": "IC593",
+    "description": "Compreensão dos conceitos fundamentais de Orientação a Objetos. Entendimento e aplicação dos conceitos e componentes de classes em linguagens orientadas a objetos. Desenvolvimento de sistemas através do uso de Programação Orientada a Objetos (POO). Utilização da linguagem Java no desenvolvimento de sistemas OO",
+    "hours": 60,
+    "id": "f4e2077b-1065-4d43-bb8c-ec1dc8ec1d18",
+    "name": "LINGUAGEM DE PROGRAMAÇÃO II",
+    "professor": "Maria Joana",
+    "period": 2
+  },
+  {
+    "code": "IH129",
+    "description": "Apresentar os principais fundamentos e conceitos da Administração a serem aplicados por diretores, gerentes, coordenadores e supervisores.",
+    "hours": 60,
+    "id": "fcb317d3-40dd-473c-841c-0518e82366cd",
+    "name": " INTRODUÇÃO À ADMINISTRAÇÃO",
+    "professor": "Márcia Roberta",
+    "period": 1
+  }
+]

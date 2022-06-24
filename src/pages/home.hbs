@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Common head view -->
+    {{> head}}   
+    <!-- Background color -->
+  </head>
+
+  <body>
+    
+    <!-- Top Navigation Bar -->
+    {{> topnav}}
+    <!-- Message -->
+
+     <div class="books" id="current_state" state_name="books">
+     <div class="lista_container">
+       <!-- Title -->
+      {{!-- <header>--}}
+        <h1 class="create_title">Cadastrar de matérias</h1>
+      {{!--</header> --}}
+      <!-- Table -->
+        <form action="/create/subject" method="post" class=" class_create">
+            <input required  type="text" name="code" placeholder="Código">
+            <input  required type="text" name="professor" placeholder="Professor">
+            <input required  type="text" name="name" placeholder="Matéria">
+            <input required  type="text" name="hours" placeholder="Carga Horária">
+            <input required  type="text" name="period" placeholder="Período">
+            <textarea  name="description" placeholder="Descrição" ></textarea>
+            <button>Cadastrar</button>
+        </form>
+     </div>
+    </div>
+    
+  </body>
+
+
+</html>
